@@ -1,0 +1,43 @@
+.reset,
+.feat h5,
+.feat p {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.feat {
+  width: 600px;
+  margin: 20px 50px 20px 0;
+  padding: 0 20px;
+  height: 100px;
+  align-items: center;
+}
+.feat img {
+  height: 80px;
+}
+section {
+  margin: 100px 0;
+}
+.main {
+  background-color: #f9f1f1;
+}
+.main section {
+  margin-top: 0;
+  align-items: center;
+}
+.main h1 {
+  font-size: 48px;
+}
+.hg-text {
+  color: #fa804c;
+}
+.grd-btn {
+  background-image: linear-gradient(to top, #5b04de, #6748f9);
+}
+
+@media (max-width: 600px) {
+  .feat {
+    width: 95%;
+    margin: auto;
+    margin-top: 35px;
+  }
+}
