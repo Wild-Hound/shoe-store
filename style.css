@@ -32,8 +32,18 @@ section {
 }
 .grd-btn {
   background-image: linear-gradient(to top, #5b04de, #6748f9);
+  padding: 10px 30px;
+  font-size: 18px;
 }
-
+.heading {
+  font-size: 42px;
+  margin-bottom: 50px;
+}
+.price {
+  font-size: 28px;
+  color: #fa804c;
+  font-weight: 800;
+}
 @media (max-width: 600px) {
   .feat {
     width: 95%;
